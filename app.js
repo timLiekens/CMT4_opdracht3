@@ -99,4 +99,4 @@ app.get("/taureauandrocephaleaile", function(request, response){
 
 // heroku poortinstellingen
 app.set('port',(process.env.PORT || 5000));
-app.listen(app.get('port'), function() { });
+app.listen(app.get('port'));
