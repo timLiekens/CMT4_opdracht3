@@ -1,0 +1,21 @@
+<%- include ("header");-%>
+
+<main class="work">
+  <article class="port">
+    <div id="filters" class="button-group filters-by-button-group">
+      <button id="btn" class="button is-checked" data-filter="*">Show Everything</button>
+      <button id="btn" class="button" data-filter=".painting">Painting</button>
+      <button id="btn" class="button" data-filter=".decorative">Decorative</button>
+      <button id="btn" class="button" data-filter=".antiquities">Antiquities</button>
+      <button id="btn" class="button" data-filter=".sculptures">Sculptures</button>
+    </div>
+
+    <div class="grid">
+      <% for (let i=0; i<posts.length; i++) { %>
+          <%- include('workpost', {post: posts[i], index: i}); -%>
+      <% } // close forloop %>
+    </div>
+  </article>
+</main>
+
+<%- include ("footer");-%>

@@ -1,0 +1,54 @@
+{
+  "work": [{
+    "src": "/img/laliberteguidant.jpg",
+    "class": "element-item painting",
+    "cat": "painting",
+    "href": "/liberteguidant"
+
+  },{
+    "src": "/img/monnalisa.jpg",
+    "class": "element-item painting",
+    "cat": "painting",
+    "href": "/monnalisa"
+  },{
+    "src": "/img/louisxiv.jpg",
+    "class": "element-item painting",
+    "cat": "painting",
+    "href": "/louisxiv"
+  },{
+    "src": "/img/femmemiroir.jpg",
+    "class": "element-item painting",
+    "cat": "painting",
+    "href": "/femmemiroir"
+  },{
+    "src": "/img/diamant.jpg",
+    "class": "element-item decorative",
+    "cat": "decorative",
+    "href": "/diamant"
+  },{
+    "src": "/img/quotscribeaccroupiquot.jpg",
+    "class": "element-item antiquities",
+    "cat": "antiquities",
+    "href": "/quotscribeaccroupiquot"
+  },{
+    "src": "/img/frisedesarchers.jpg",
+    "class": "element-item antiquities",
+    "cat": "antiquities",
+    "href": "/frisedesarchers"
+  },{
+    "src": "/img/taureauandrocephaleaile.jpg",
+    "class": "element-item antiquities",
+    "cat": "antiquities",
+    "href": "/taureauandrocephaleaile"
+  },{
+    "src": "/img/cheval.jpg",
+    "class": "element-item sculptures",
+    "cat": "sculptures",
+    "href": "/cheval"
+  },{
+    "src": "/img/captif.jpg",
+    "class": "element-item sculptures",
+    "cat": "sculptures",
+    "href": "/captif"
+  }]
+}

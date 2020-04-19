@@ -1,0 +1,27 @@
+<%- include ("header");-%>
+
+<main class="home">
+  <div class="teksthome">
+    <div class="welcomeMessage">
+      <h3>Louvre App</h3>
+      <p>Welcome, on this app you'll be able to find some of the works that can be visited at Louvre. On the homepage you'll find a couple of the highlighted works. On the work page you can find the whole collection, ofcourse these are the only ones we can show you.</p>
+    </div>
+    <h3>Highlighted Works</h3>
+  </div>
+  <div class="highlightedWorks">
+    <div class="highwork">
+      <img src="<%=posts[1].src%>" alt="monna lisa">
+      <a class="btn" href="<%= posts[1].href %>">Monna Lisa</a>
+    </div>
+    <div class="highwork">
+      <img src="<%=posts[6].src%>" alt="Frieze of Archers">
+      <a class="btn" href="<%= posts[6].href %>">Frieze of Archers</a>
+    </div>
+    <div class="highwork">
+      <img src="<%=posts[9].src%>" alt="The Rebellious Slave">
+      <a class="btn" href="<%= posts[9].href %>">The Rebellious Slave</a>
+    </div>
+  </div>
+</main>
+
+<%- include ("footer");-%>
